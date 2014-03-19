@@ -9,7 +9,7 @@ This REST API handles users. All information is sent with JSON formatting. The s
 * Returning status codes
 * Error handling
 
-## To add a user
+## To add a new user
 ```add``` 
 
 ## To fetch all users
