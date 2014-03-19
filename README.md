@@ -21,7 +21,7 @@ persons
 ```PHP
 persons/1
 ```
-## A user can from the start store the following properties:
+## A user can store the following properties
 * Name
 * Mail
 * User
