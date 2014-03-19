@@ -10,14 +10,17 @@ This REST API handles users. All information is sent with JSON formatting. The s
 * Error handling
 
 ## To add a new user
-```add``` 
-
+```PHP
+add
+```
 ## To fetch all users
-```persons```
-
+```PHP
+persons
+```
 ## To fetch a single user
-```persons/1```
-
+```PHP
+persons/1
+```
 ## A user can from the start store the following properties:
 * Name
 * Mail
