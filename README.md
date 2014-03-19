@@ -13,13 +13,16 @@ This REST API handles users. All information is sent with JSON formatting. The s
 
 ### To add a new user
 ```PHP
-add```
+add
+```
 ### To fetch all users
 ```PHP
-persons```
+persons
+```
 ### To fetch a single user
 ```PHP
-persons/1```
+persons/1
+```
 ## You can store the following properties for a user
 * Name
 * Mail
