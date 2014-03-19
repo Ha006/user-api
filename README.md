@@ -23,7 +23,7 @@ persons
 ```PHP
 persons/1
 ```
-## You can store the following properties for a user
+## What properties can I store for a user?
 * Name
 * Mail
 * User
