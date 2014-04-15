@@ -5,15 +5,7 @@ class User extends Model_Database {
 		if (empty($id)) {
 			$users = DB::select()->from('user')->execute()->as_array();
 		} else {
-/*
-			if (is_int($id)) {
-				$users = DB::select()->from('user')->where('user.id', '=', $id)->execute()->as_array();
-			} else if (strpos($id, '@') == true) {
-				$users = DB::select()->from('user')->where('user.email', '=', $id)->execute()->as_array();
-			} else {
-*/
-				$users = DB::select()->from('user')->where('user.id', '=', $id)->execute()->as_array();
-/* 			} */
+			$users = DB::select()->from('user')->where('user.id', '=', $id)->execute()->as_array();
 		}
 		if (empty($users)) {
 			$users = 'Ingen användere, fel';
