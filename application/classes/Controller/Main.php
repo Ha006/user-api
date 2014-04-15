@@ -6,7 +6,6 @@ class Controller_Main extends Controller {
 	{
 		$view = View::factory('index');
 		$this->response->body($view);
-		//$this->response->body('<h1>User api</h1><a href="persons">List all users</a><br><a href="add">Add user</a>');
 	}
 	public function action_persons() {
 		$user = User::get($this->request->param('id'));
@@ -17,7 +16,7 @@ class Controller_Main extends Controller {
 		$this->response->body($view);
 	}
 	public function action_add() {
-		if(empty($_POST)) {
+		if (empty($_POST)) {
 			$view = View::factory('add');
 			$this->response->body($view);
 		} else {
@@ -31,4 +30,4 @@ class Controller_Main extends Controller {
 		}
 	}
 
-} // End Welcome
+}
